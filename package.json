@@ -1,0 +1,28 @@
+{
+  "name": "project-fitness-07",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://sofiaprotsiv.github.io/project-fitness-07/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^8.1.0",
+    "vite": "^4.0.5"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "basiclightbox": "^5.0.4",
+    "firebase": "^10.7.1",
+    "izitoast": "^1.4.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}
