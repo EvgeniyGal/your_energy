@@ -1,7 +1,7 @@
 const header = document.querySelectorAll('.header__nav');
 const sections = document.querySelectorAll('section');
 
-const lasyLoad = targets => {
+const lazyLoad = targets => {
   const options = {
     rootMargin: '100px',
     threshold: 0.2,
@@ -21,7 +21,7 @@ const lasyLoad = targets => {
   targets.forEach(target => sectionsObserver.observe(target));
 };
 
-// lasyLoad(header)
+// lazyLoad(header)
 setTimeout(() => {
-  lasyLoad(sections);
+  lazyLoad(sections);
 }, 250);

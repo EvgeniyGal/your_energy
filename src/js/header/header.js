@@ -69,7 +69,7 @@ function themeSwitch() {
   }
 }
 
-function setThemeOnLoad() {
+(function setThemeOnLoad() {
   const currentTheme = localStorage.getItem('theme');
 
   if (currentTheme === 'dark') {
@@ -78,6 +78,4 @@ function setThemeOnLoad() {
     iconMoon.style.display = 'none';
     iconSun.style.display = 'unset';
   }
-}
-
-setThemeOnLoad();
+})();
